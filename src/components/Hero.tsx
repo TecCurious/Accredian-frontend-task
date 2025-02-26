@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
             </div>
             
           
-            <div className="mt-4 md:mt-4 ">
+            <div className="mt-4 md:mt-2">
               <Button 
                 className="px-8 py-6 bg-custom-blue hover:bg-blue-600 text-lg md:text-xl " 
                 onClick={() => setIsModalOpen(true)}
