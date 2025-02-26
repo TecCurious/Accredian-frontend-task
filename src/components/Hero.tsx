@@ -29,10 +29,10 @@ const Hero: React.FC = () => {
               </div>
             </div>
             
-            {/* Button moved inside the content section with proper positioning */}
-            <div className="mt-4 md:mt-6 lg:mt-8">
+          
+            <div className="mt-4 md:mt-4 ">
               <Button 
-                className="px-10 py-6 bg-custom-blue hover:bg-blue-600 text-lg md:text-xl " 
+                className="px-8 py-6 bg-custom-blue hover:bg-blue-600 text-lg md:text-xl " 
                 onClick={() => setIsModalOpen(true)}
               >
                 Refer Now
@@ -41,7 +41,6 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Image visible only on md screens and above */}
         <div className="hidden md:block md:absolute md:top-2 md:right-0 md:h-full">
           <img
             className="w-full max-w-xs sm:max-w-sm md:max-w-none md:w-[41vw]"
