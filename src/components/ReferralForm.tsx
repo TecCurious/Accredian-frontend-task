@@ -50,7 +50,7 @@ const ReferralForm = () => {
       refereeEmail: "",
       program: "",
     },
-    mode: "onChange", // Enable validation on change for more interactivity
+    mode: "onChange", 
   });
 
   const onSubmit = async (data: ReferralFormValues) => {
